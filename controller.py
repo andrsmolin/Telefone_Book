@@ -2,7 +2,6 @@ import modul_use_telefone_book as mt
 from modul_use_telefone_book import  read, delete #add,
 import preview as pr
 
-
 def choise_type(type):
     if type == 1:
         return mt.read()
