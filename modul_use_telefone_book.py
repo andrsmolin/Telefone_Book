@@ -2,7 +2,6 @@ from os import statvfs_result
 from unicodedata import name
 import view as v
 
-
 def read(): 
     tel_dect = return_data()
     surname = v.input_surname()
