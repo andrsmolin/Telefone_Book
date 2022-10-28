@@ -1,9 +1,3 @@
-# type = ""
-#surname = ""
-# name = ""
-# number = ""
-# status = ""
-
 
 def check_input(input_text):
     while True:
@@ -16,7 +10,6 @@ def check_input(input_text):
 
 
 def start():
-    # global type
     print("Выберите тип работы с телефонным справочником: ")
     print("1 - посмотреть контакт")
     print("2 - добавить новый контакт")
